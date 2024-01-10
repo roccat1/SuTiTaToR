@@ -59,10 +59,16 @@ def button_click(g_row, g_col, row, col, event):
     elif result == "MINI WIN":
         mini_win(g_row, g_col, game.turn)
         log.log("[INFO] s_game ended")
-        infoLabel.configure(text=f"Player {player_to_sign_anti[game.turn]} won a mini game, player {player_to_sign[game.turn]}'s turn")
+        if game.g_game.previous_move == None:
+            infoLabel.configure(text=f"Player {player_to_sign_anti[game.turn]} won a mini game, player {player_to_sign[game.turn]}'s turn where he wants")
+        else:
+            infoLabel.configure(text=f"Player {player_to_sign_anti[game.turn]} won a mini game, player {player_to_sign[game.turn]}'s turn in row {game.g_game.previous_move[0]+1}, column {game.g_game.previous_move[1]+1}")
     elif result and result != "ENDED":
         update_image(g_row, g_col, row, col, "X" if game.turn == 1 else "O")
-        infoLabel.configure(text=f"Player {player_to_sign[game.turn]}'s turn")
+        if game.g_game.previous_move == None:
+            infoLabel.configure(text=f"Player {player_to_sign[game.turn]}'s turn where he wants")
+        else:
+            infoLabel.configure(text=f"Player {player_to_sign[game.turn]}'s turn in row {game.g_game.previous_move[0]+1}, column {game.g_game.previous_move[1]+1}")
     
     if result == "ENDED":
         log.log("[INFO] Game already ended")

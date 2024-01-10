@@ -1,1 +1,1 @@
-- mechanic only able to place in game played
+- online

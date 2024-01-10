@@ -9,6 +9,7 @@ class TicTacToeNxN:
         self.board = [[0 for column in range(self.DIM)] for row in range(self.DIM)]
         self.turn = 1
         self.active = True
+        self.previous_move = None
 
         log.log(f"[START] Game created with dimension {self.DIM}")
 
