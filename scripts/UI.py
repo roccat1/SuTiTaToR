@@ -43,35 +43,39 @@ def mini_win(g_row, g_col, player):
 
 def button_click(g_row, g_col, row, col, event):
     global infoLabel
+
+    ############################################################## if result: <- from the server, run localy
+
     result = game.play_move(g_row, g_col, row, col)
 
-    if not game.g_game.active and result != "END":
-        result = "ENDED"
+    if result:
+        if not game.g_game.active and result != "END":
+            result = "ENDED"
 
-    if result == "END":
-        update_image(g_row, g_col, row, col, "X" if game.turn == 2 else "O")
-        mini_win(g_row, g_col, game.turn)
-        log.log("[INFO] Game ended")
-        if game.g_game.check_win()[0] and game.g_game.check_win()[1] != 0:
-            infoLabel.configure(text=f"Player {player_to_sign_anti[game.turn]} won a THE game!")
-        else:
-            infoLabel.configure(text=f"TIE!!")
-    elif result == "MINI WIN":
-        mini_win(g_row, g_col, game.turn)
-        log.log("[INFO] s_game ended")
-        if game.g_game.previous_move == None:
-            infoLabel.configure(text=f"Player {player_to_sign_anti[game.turn]} won a mini game, player {player_to_sign[game.turn]}'s turn where he wants")
-        else:
-            infoLabel.configure(text=f"Player {player_to_sign_anti[game.turn]} won a mini game, player {player_to_sign[game.turn]}'s turn in row {game.g_game.previous_move[0]+1}, column {game.g_game.previous_move[1]+1}")
-    elif result and result != "ENDED":
-        update_image(g_row, g_col, row, col, "X" if game.turn == 1 else "O")
-        if game.g_game.previous_move == None:
-            infoLabel.configure(text=f"Player {player_to_sign[game.turn]}'s turn where he wants")
-        else:
-            infoLabel.configure(text=f"Player {player_to_sign[game.turn]}'s turn in row {game.g_game.previous_move[0]+1}, column {game.g_game.previous_move[1]+1}")
-    
-    if result == "ENDED":
-        log.log("[INFO] Game already ended")
+        if result == "END":
+            update_image(g_row, g_col, row, col, "X" if game.turn == 2 else "O")
+            mini_win(g_row, g_col, game.turn)
+            log.log("[INFO] Game ended")
+            if game.g_game.check_win()[0] and game.g_game.check_win()[1] != 0:
+                infoLabel.configure(text=f"Player {player_to_sign_anti[game.turn]} won a THE game!")
+            else:
+                infoLabel.configure(text=f"TIE!!")
+        elif result == "MINI WIN":
+            mini_win(g_row, g_col, game.turn)
+            log.log("[INFO] s_game ended")
+            if game.g_game.previous_move == None:
+                infoLabel.configure(text=f"Player {player_to_sign_anti[game.turn]} won a mini game, player {player_to_sign[game.turn]}'s turn where he wants")
+            else:
+                infoLabel.configure(text=f"Player {player_to_sign_anti[game.turn]} won a mini game, player {player_to_sign[game.turn]}'s turn in row {game.g_game.previous_move[0]+1}, column {game.g_game.previous_move[1]+1}")
+        elif result and result != "ENDED":
+            update_image(g_row, g_col, row, col, "X" if game.turn == 1 else "O")
+            if game.g_game.previous_move == None:
+                infoLabel.configure(text=f"Player {player_to_sign[game.turn]}'s turn where he wants")
+            else:
+                infoLabel.configure(text=f"Player {player_to_sign[game.turn]}'s turn in row {game.g_game.previous_move[0]+1}, column {game.g_game.previous_move[1]+1}")
+        
+        if result == "ENDED":
+            log.log("[INFO] Game already ended")
 
 def update_image(g_row: int, g_col: int, row: int, col: int, img: str, rotation = 0):
     """Updates the image at the given location to the given image

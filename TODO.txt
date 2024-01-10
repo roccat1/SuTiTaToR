@@ -1,1 +1,3 @@
 - online
+- warning when wrong grid
+- log all grid grids

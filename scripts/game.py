@@ -7,14 +7,17 @@ turn = 1
 
 log.log("[START] Game created")
 
+def update_prev_mov(row, col):
+    if games[row][col].active:
+            g_game.previous_move = (row, col)
+    else:
+        g_game.previous_move = None
+
 def play_move(g_row, g_col, row, col) -> bool:
     global turn, games, g_game
 
     if (not g_game.previous_move or g_game.previous_move == (g_row, g_col)) and g_game.active:
-        if games[row][col].active:
-                g_game.previous_move = (row, col)
-        else:
-            g_game.previous_move = None
+        update_prev_mov(row, col)
         
         if games[g_row][g_col].move(turn, row, col) and games[g_row][g_col].active:
             # available move
@@ -24,6 +27,7 @@ def play_move(g_row, g_col, row, col) -> bool:
             if games[g_row][g_col].check_win()[0] and games[g_row][g_col].check_win()[1] != 0:
                 # someone wins small game
                 log.log(f"[INFO] s_game {g_row}, {g_col} won by {turn} due to {games[g_row][g_col].check_win()[3]} {games[g_row][g_col].check_win()[2]}")
+                update_prev_mov(row, col)
                 turn = 1 if turn == 2 else 2
                 
                 if g_game_move(g_row, g_col, games[g_row][g_col].check_win()[1]):
