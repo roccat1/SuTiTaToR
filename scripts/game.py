@@ -4,6 +4,8 @@ import scripts.log as log
 games = [[ttt.TicTacToeNxN(3) for col in range(3)] for row in range(3)]
 g_game = ttt.TicTacToeNxN(3)
 turn = 1
+player = None
+online_mode = True
 
 log.log("[START] Game created")
 

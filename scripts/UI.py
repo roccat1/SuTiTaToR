@@ -4,6 +4,7 @@ from functools import partial
 
 import scripts.log as log
 import scripts.game as game
+import scripts.client.client as client
 
 log.log("[START] UI started")
 
@@ -40,8 +41,14 @@ def mini_win(g_row, g_col, player):
         update_image(g_row, g_col, 1, 2, "blank", 0)
         update_image(g_row, g_col, 2, 1, "blank", 0)
 
+def button_click(g_row, g_col, row, col, event=None):
+    if game.online_mode and game.player == game.turn:
+        client.msg=f"{client.nickname};{g_row};{g_col};{row};{col}"
+        execute_board_change(g_row, g_col, row, col)
+    elif not game.online_mode:
+        execute_board_change(g_row, g_col, row, col)
 
-def button_click(g_row, g_col, row, col, event):
+def execute_board_change(g_row, g_col, row, col):
     global infoLabel
 
     ############################################################## if result: <- from the server, run localy

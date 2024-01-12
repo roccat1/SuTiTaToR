@@ -1,220 +1,187 @@
-2024-01-10 21:32:54 - [START] log started
-2024-01-10 21:32:54 - [START] TicTacToeNxN.py
-2024-01-10 21:32:54 - [START] Game created with dimension 3
-2024-01-10 21:32:54 - [START] Game created with dimension 3
-2024-01-10 21:32:54 - [START] Game created with dimension 3
-2024-01-10 21:32:54 - [START] Game created with dimension 3
-2024-01-10 21:32:54 - [START] Game created with dimension 3
-2024-01-10 21:32:54 - [START] Game created with dimension 3
-2024-01-10 21:32:54 - [START] Game created with dimension 3
-2024-01-10 21:32:54 - [START] Game created with dimension 3
-2024-01-10 21:32:54 - [START] Game created with dimension 3
-2024-01-10 21:32:54 - [START] Game created with dimension 3
-2024-01-10 21:32:54 - [START] Game created
-2024-01-10 21:32:54 - [START] UI started
-2024-01-10 21:32:54 - [START] main started
-2024-01-10 21:32:55 - [START] UI created
-2024-01-10 21:33:26 - [INFO] s_game move at 0, 2 from player 1
-2024-01-10 21:33:26 - [INFO] Board:
-2024-01-10 21:33:26 - [INFO] [0, 0, 1]
-2024-01-10 21:33:26 - [INFO] [0, 0, 0]
-2024-01-10 21:33:26 - [INFO] [0, 0, 0]
-2024-01-10 21:33:52 - [INFO] s_game move at 1, 1 from player 2
-2024-01-10 21:33:52 - [INFO] Board:
-2024-01-10 21:33:52 - [INFO] [0, 0, 0]
-2024-01-10 21:33:52 - [INFO] [0, 2, 0]
-2024-01-10 21:33:52 - [INFO] [0, 0, 0]
-2024-01-10 21:33:56 - [INFO] s_game move at 2, 0 from player 1
-2024-01-10 21:33:56 - [INFO] Board:
-2024-01-10 21:33:56 - [INFO] [0, 0, 1]
-2024-01-10 21:33:56 - [INFO] [0, 0, 0]
-2024-01-10 21:33:56 - [INFO] [1, 0, 0]
-2024-01-10 21:34:13 - [INFO] s_game move at 2, 0 from player 2
-2024-01-10 21:34:13 - [INFO] Board:
-2024-01-10 21:34:13 - [INFO] [0, 0, 0]
-2024-01-10 21:34:13 - [INFO] [0, 0, 0]
-2024-01-10 21:34:13 - [INFO] [2, 0, 0]
-2024-01-10 21:34:19 - [INFO] s_game move at 0, 2 from player 1
-2024-01-10 21:34:19 - [INFO] Board:
-2024-01-10 21:34:19 - [INFO] [0, 0, 1]
-2024-01-10 21:34:19 - [INFO] [0, 0, 0]
-2024-01-10 21:34:19 - [INFO] [2, 0, 0]
-2024-01-10 21:34:25 - [GOOD ERROR] Wrong move at 0, 0 from player 2
-2024-01-10 21:34:33 - [INFO] s_game move at 0, 2 from player 2
-2024-01-10 21:34:33 - [INFO] Board:
-2024-01-10 21:34:33 - [INFO] [0, 0, 2]
-2024-01-10 21:34:33 - [INFO] [0, 2, 0]
-2024-01-10 21:34:33 - [INFO] [0, 0, 0]
-2024-01-10 21:35:02 - [INFO] s_game move at 2, 0 from player 1
-2024-01-10 21:35:02 - [INFO] Board:
-2024-01-10 21:35:02 - [INFO] [0, 0, 2]
-2024-01-10 21:35:02 - [INFO] [0, 2, 0]
-2024-01-10 21:35:02 - [INFO] [1, 0, 0]
-2024-01-10 21:35:15 - [INFO] s_game move at 2, 2 from player 2
-2024-01-10 21:35:15 - [INFO] Board:
-2024-01-10 21:35:15 - [INFO] [0, 0, 1]
-2024-01-10 21:35:15 - [INFO] [0, 0, 0]
-2024-01-10 21:35:15 - [INFO] [2, 0, 2]
-2024-01-10 21:35:33 - [INFO] s_game move at 0, 2 from player 1
-2024-01-10 21:35:33 - [INFO] Board:
-2024-01-10 21:35:33 - [INFO] [0, 0, 1]
-2024-01-10 21:35:33 - [INFO] [0, 0, 0]
-2024-01-10 21:35:33 - [INFO] [0, 0, 0]
-2024-01-10 21:35:45 - [INFO] s_game move at 2, 2 from player 2
-2024-01-10 21:35:45 - [INFO] Board:
-2024-01-10 21:35:45 - [INFO] [0, 0, 2]
-2024-01-10 21:35:45 - [INFO] [0, 2, 0]
-2024-01-10 21:35:45 - [INFO] [1, 0, 2]
-2024-01-10 21:35:50 - [INFO] s_game move at 0, 0 from player 1
-2024-01-10 21:35:50 - [INFO] Board:
-2024-01-10 21:35:50 - [INFO] [1, 0, 1]
-2024-01-10 21:35:50 - [INFO] [0, 0, 0]
-2024-01-10 21:35:50 - [INFO] [0, 0, 0]
-2024-01-10 21:35:58 - [INFO] s_game move at 0, 0 from player 2
-2024-01-10 21:35:58 - [INFO] Board:
-2024-01-10 21:35:58 - [INFO] [2, 0, 0]
-2024-01-10 21:35:58 - [INFO] [0, 0, 0]
-2024-01-10 21:35:58 - [INFO] [0, 0, 0]
-2024-01-10 21:36:04 - [INFO] s_game move at 1, 2 from player 1
-2024-01-10 21:36:04 - [INFO] Board:
-2024-01-10 21:36:04 - [INFO] [2, 0, 0]
-2024-01-10 21:36:04 - [INFO] [0, 0, 1]
-2024-01-10 21:36:04 - [INFO] [0, 0, 0]
-2024-01-10 21:36:29 - [INFO] s_game move at 2, 1 from player 2
-2024-01-10 21:36:29 - [INFO] Board:
-2024-01-10 21:36:29 - [INFO] [0, 0, 0]
-2024-01-10 21:36:29 - [INFO] [0, 0, 0]
-2024-01-10 21:36:29 - [INFO] [0, 2, 0]
-2024-01-10 21:36:34 - [INFO] s_game move at 0, 2 from player 1
-2024-01-10 21:36:34 - [INFO] Board:
-2024-01-10 21:36:34 - [INFO] [0, 0, 1]
-2024-01-10 21:36:34 - [INFO] [0, 0, 0]
-2024-01-10 21:36:34 - [INFO] [0, 0, 0]
-2024-01-10 21:36:42 - [INFO] s_game move at 1, 2 from player 2
-2024-01-10 21:36:42 - [INFO] Board:
-2024-01-10 21:36:42 - [INFO] [0, 0, 2]
-2024-01-10 21:36:42 - [INFO] [0, 2, 2]
-2024-01-10 21:36:42 - [INFO] [1, 0, 2]
-2024-01-10 21:36:42 - [INFO] s_game 0, 2 won by 2 due to column 2
-2024-01-10 21:36:42 - [INFO] s_game ended
-2024-01-10 21:37:09 - [INFO] s_game move at 0, 0 from player 1
-2024-01-10 21:37:09 - [INFO] Board:
-2024-01-10 21:37:09 - [INFO] [1, 0, 0]
-2024-01-10 21:37:09 - [INFO] [0, 0, 0]
-2024-01-10 21:37:09 - [INFO] [0, 2, 0]
-2024-01-10 21:37:15 - [INFO] s_game move at 1, 0 from player 2
-2024-01-10 21:37:15 - [INFO] Board:
-2024-01-10 21:37:15 - [INFO] [2, 0, 0]
-2024-01-10 21:37:15 - [INFO] [2, 0, 1]
-2024-01-10 21:37:15 - [INFO] [0, 0, 0]
-2024-01-10 21:37:21 - [INFO] s_game move at 1, 2 from player 1
-2024-01-10 21:37:21 - [INFO] Board:
-2024-01-10 21:37:21 - [INFO] [0, 0, 0]
-2024-01-10 21:37:21 - [INFO] [0, 0, 1]
-2024-01-10 21:37:21 - [INFO] [0, 0, 0]
-2024-01-10 21:37:27 - [GOOD ERROR] Wrong move at 1, 2 from player 2
-2024-01-10 21:38:14 - [INFO] s_game move at 1, 0 from player 2
-2024-01-10 21:38:14 - [INFO] Board:
-2024-01-10 21:38:14 - [INFO] [1, 0, 0]
-2024-01-10 21:38:14 - [INFO] [2, 0, 0]
-2024-01-10 21:38:14 - [INFO] [0, 2, 0]
-2024-01-10 21:38:35 - [INFO] s_game move at 0, 1 from player 1
-2024-01-10 21:38:35 - [INFO] Board:
-2024-01-10 21:38:35 - [INFO] [0, 1, 0]
-2024-01-10 21:38:35 - [INFO] [0, 0, 1]
-2024-01-10 21:38:35 - [INFO] [0, 0, 0]
-2024-01-10 21:38:47 - [INFO] s_game move at 1, 0 from player 2
-2024-01-10 21:38:47 - [INFO] Board:
-2024-01-10 21:38:47 - [INFO] [0, 0, 0]
-2024-01-10 21:38:47 - [INFO] [2, 0, 0]
-2024-01-10 21:38:47 - [INFO] [0, 0, 0]
-2024-01-10 21:38:56 - [GOOD ERROR] Wrong move at 0, 1 from player 1
-2024-01-10 21:39:21 - [INFO] s_game move at 1, 1 from player 1
-2024-01-10 21:39:21 - [INFO] Board:
-2024-01-10 21:39:21 - [INFO] [0, 1, 0]
-2024-01-10 21:39:21 - [INFO] [0, 1, 1]
-2024-01-10 21:39:21 - [INFO] [0, 0, 0]
-2024-01-10 21:39:35 - [INFO] s_game move at 1, 1 from player 2
-2024-01-10 21:39:35 - [INFO] Board:
-2024-01-10 21:39:35 - [INFO] [0, 0, 1]
-2024-01-10 21:39:35 - [INFO] [0, 2, 0]
-2024-01-10 21:39:35 - [INFO] [1, 0, 0]
-2024-01-10 21:39:46 - [INFO] s_game move at 0, 1 from player 1
-2024-01-10 21:39:46 - [INFO] Board:
-2024-01-10 21:39:46 - [INFO] [0, 1, 1]
-2024-01-10 21:39:46 - [INFO] [0, 2, 0]
-2024-01-10 21:39:46 - [INFO] [1, 0, 0]
-2024-01-10 21:40:09 - [INFO] s_game move at 1, 2 from player 2
-2024-01-10 21:40:09 - [INFO] Board:
-2024-01-10 21:40:09 - [INFO] [0, 0, 0]
-2024-01-10 21:40:09 - [INFO] [2, 0, 2]
-2024-01-10 21:40:09 - [INFO] [0, 0, 0]
-2024-01-10 21:40:44 - [INFO] s_game move at 1, 2 from player 1
-2024-01-10 21:40:44 - [INFO] Board:
-2024-01-10 21:40:44 - [INFO] [1, 0, 0]
-2024-01-10 21:40:44 - [INFO] [2, 0, 1]
-2024-01-10 21:40:44 - [INFO] [0, 2, 0]
-2024-01-10 21:41:11 - [INFO] s_game move at 2, 2 from player 2
-2024-01-10 21:41:11 - [INFO] Board:
-2024-01-10 21:41:11 - [INFO] [1, 0, 0]
-2024-01-10 21:41:11 - [INFO] [2, 0, 1]
-2024-01-10 21:41:11 - [INFO] [0, 2, 2]
-2024-01-10 21:41:19 - [INFO] s_game move at 0, 1 from player 1
-2024-01-10 21:41:19 - [INFO] Board:
-2024-01-10 21:41:19 - [INFO] [1, 1, 1]
-2024-01-10 21:41:19 - [INFO] [0, 0, 0]
-2024-01-10 21:41:19 - [INFO] [0, 0, 0]
-2024-01-10 21:41:19 - [INFO] s_game 2, 2 won by 1 due to row 0
-2024-01-10 21:41:19 - [INFO] s_game ended
-2024-01-10 21:41:23 - [INFO] s_game move at 1, 1 from player 2
-2024-01-10 21:41:23 - [INFO] Board:
-2024-01-10 21:41:23 - [INFO] [0, 0, 0]
-2024-01-10 21:41:23 - [INFO] [2, 2, 2]
-2024-01-10 21:41:23 - [INFO] [0, 0, 0]
-2024-01-10 21:41:23 - [INFO] s_game 0, 1 won by 2 due to row 1
-2024-01-10 21:41:23 - [INFO] s_game ended
-2024-01-10 21:41:31 - [INFO] s_game move at 2, 1 from player 1
-2024-01-10 21:41:31 - [INFO] Board:
-2024-01-10 21:41:31 - [INFO] [0, 1, 1]
-2024-01-10 21:41:31 - [INFO] [0, 2, 0]
-2024-01-10 21:41:31 - [INFO] [1, 1, 0]
-2024-01-10 21:42:55 - [INFO] s_game move at 1, 2 from player 2
-2024-01-10 21:42:55 - [INFO] Board:
-2024-01-10 21:42:55 - [INFO] [0, 0, 1]
-2024-01-10 21:42:55 - [INFO] [0, 0, 2]
-2024-01-10 21:42:55 - [INFO] [0, 0, 0]
-2024-01-10 21:43:19 - [INFO] s_game move at 1, 1 from player 1
-2024-01-10 21:43:19 - [INFO] Board:
-2024-01-10 21:43:19 - [INFO] [1, 0, 0]
-2024-01-10 21:43:19 - [INFO] [2, 1, 1]
-2024-01-10 21:43:19 - [INFO] [0, 2, 2]
-2024-01-10 21:43:22 - [INFO] s_game move at 1, 2 from player 2
-2024-01-10 21:43:22 - [INFO] Board:
-2024-01-10 21:43:22 - [INFO] [0, 1, 1]
-2024-01-10 21:43:23 - [INFO] [0, 2, 2]
-2024-01-10 21:43:23 - [INFO] [1, 1, 0]
-2024-01-10 21:43:36 - [INFO] s_game move at 2, 0 from player 1
-2024-01-10 21:43:36 - [INFO] Board:
-2024-01-10 21:43:36 - [INFO] [1, 0, 0]
-2024-01-10 21:43:36 - [INFO] [2, 1, 1]
-2024-01-10 21:43:36 - [INFO] [1, 2, 2]
-2024-01-10 21:43:44 - [INFO] s_game move at 1, 2 from player 2
-2024-01-10 21:43:44 - [INFO] Board:
-2024-01-10 21:43:44 - [INFO] [0, 0, 1]
-2024-01-10 21:43:44 - [INFO] [0, 0, 2]
-2024-01-10 21:43:44 - [INFO] [2, 0, 2]
-2024-01-10 21:43:58 - [INFO] s_game move at 0, 2 from player 1
-2024-01-10 21:43:58 - [INFO] Board:
-2024-01-10 21:43:58 - [INFO] [1, 0, 1]
-2024-01-10 21:43:58 - [INFO] [2, 1, 1]
-2024-01-10 21:43:58 - [INFO] [1, 2, 2]
-2024-01-10 21:43:58 - [INFO] s_game 1, 2 won by 1 due to diagonal 1
-2024-01-10 21:43:58 - [INFO] s_game ended
-2024-01-10 21:44:00 - [INFO] s_game move at 2, 0 from player 2
-2024-01-10 21:44:00 - [INFO] Board:
-2024-01-10 21:44:00 - [INFO] [2, 0, 0]
-2024-01-10 21:44:00 - [INFO] [2, 0, 1]
-2024-01-10 21:44:00 - [INFO] [2, 0, 0]
-2024-01-10 21:44:00 - [INFO] s_game 0, 0 won by 2 due to column 0
-2024-01-10 21:44:00 - [INFO] g_game won by 2 due to row 0
-2024-01-10 21:44:00 - [INFO] Game ended
+2024-01-12 16:32:30 - [START] log started
+2024-01-12 16:32:30 - [START] TicTacToeNxN.py
+2024-01-12 16:32:30 - [START] Game created with dimension 3
+2024-01-12 16:32:30 - [START] Game created with dimension 3
+2024-01-12 16:32:30 - [START] Game created with dimension 3
+2024-01-12 16:32:30 - [START] Game created with dimension 3
+2024-01-12 16:32:30 - [START] Game created with dimension 3
+2024-01-12 16:32:30 - [START] Game created with dimension 3
+2024-01-12 16:32:30 - [START] Game created with dimension 3
+2024-01-12 16:32:30 - [START] Game created with dimension 3
+2024-01-12 16:32:30 - [START] Game created with dimension 3
+2024-01-12 16:32:30 - [START] Game created with dimension 3
+2024-01-12 16:32:30 - [START] Game created
+2024-01-12 16:32:30 - [START] UI started
+2024-01-12 16:32:30 - [START] main started
+2024-01-12 16:32:30 - [INFO] nicholas joined the chat!
+2024-01-12 16:32:30 - [ERROR] operation failed
+2024-01-12 16:32:30 - [START] UI created
+2024-01-12 16:32:30 - [INFO] Connected to server!
+2024-01-12 16:32:30 - [ERROR] operation failed
+2024-01-12 16:32:35 - [INFO] nicholas joined the chat!
+2024-01-12 16:32:35 - [ERROR] operation failed
+2024-01-12 16:32:47 - [INFO] nicholas;0;0;0;0
+2024-01-12 16:32:47 - [INFO] s_game move at 0, 0 from player 1
+2024-01-12 16:32:47 - [INFO] Board:
+2024-01-12 16:32:47 - [INFO] Move failed
+2024-01-12 16:32:47 - [INFO] [1, 0, 0]
+2024-01-12 16:32:47 - [INFO] wrong grid at 0, 0 from player 1
+2024-01-12 16:32:47 - [INFO] [0, 0, 0]
+2024-01-12 16:32:47 - [INFO] [0, 0, 0]
+2024-01-12 16:32:53 - [INFO] nicholas;0;0;0;2
+2024-01-12 16:32:53 - [INFO] s_game move at 0, 2 from player 2
+2024-01-12 16:32:54 - [INFO] Board:
+2024-01-12 16:32:54 - [INFO] [1, 0, 2]
+2024-01-12 16:32:54 - [INFO] [0, 0, 0]
+2024-01-12 16:32:54 - [INFO] [0, 0, 0]
+2024-01-12 16:32:57 - [INFO] nicholas;0;0;1;2
+2024-01-12 16:32:57 - [GOOD ERROR] Wrong move at 1, 2 from player 1
+2024-01-12 16:32:57 - [GOOD ERROR] Wrong move at 1, 2 from player 1
+2024-01-12 16:32:59 - [INFO] s_game move at 2, 0 from player 1
+2024-01-12 16:32:59 - [INFO] nicholas;0;2;2;0
+2024-01-12 16:32:59 - [INFO] Board:
+2024-01-12 16:32:59 - [GOOD ERROR] Wrong move at 2, 0 from player 1
+2024-01-12 16:33:00 - [INFO] [0, 0, 0]
+2024-01-12 16:33:00 - [INFO] [0, 0, 0]
+2024-01-12 16:33:00 - [INFO] [1, 0, 0]
+2024-01-12 16:33:02 - [INFO] nicholas;2;0;0;1
+2024-01-12 16:33:02 - [INFO] s_game move at 0, 1 from player 2
+2024-01-12 16:33:02 - [INFO] Board:
+2024-01-12 16:33:02 - [INFO] [0, 2, 0]
+2024-01-12 16:33:03 - [INFO] [0, 0, 0]
+2024-01-12 16:33:03 - [INFO] [0, 0, 0]
+2024-01-12 16:33:06 - [GOOD ERROR] Wrong move at 0, 2 from player 1
+2024-01-12 16:33:06 - [INFO] nicholas;1;0;0;2
+2024-01-12 16:33:06 - [GOOD ERROR] Wrong move at 0, 2 from player 1
+2024-01-12 16:33:11 - [INFO] nicholas;0;1;0;0
+0 from player 1
+2024-01-12 16:33:11 - [GOOD ERROR] Wrong move at 0, 0 from player 1
+2024-01-12 16:33:11 - [INFO] Board:
+2024-01-12 16:33:11 - [INFO] [1, 0, 0]
+2024-01-12 16:33:11 - [INFO] [0, 0, 0]
+2024-01-12 16:33:11 - [INFO] [0, 0, 0]
+2024-01-12 16:33:13 - [INFO] nicholas;0;0;2;2
+2024-01-12 16:33:13 - [INFO] s_game move at 2, 2 from player 2
+2024-01-12 16:33:14 - [INFO] Board:
+2024-01-12 16:33:14 - [INFO] [1, 0, 2]
+2024-01-12 16:33:14 - [INFO] [0, 0, 0]
+2024-01-12 16:33:14 - [INFO] [0, 0, 2]
+2024-01-12 16:33:15 - [INFO] s_game move at 0, 0 from player 1
+2024-01-12 16:33:15 - [INFO] nicholas;2;2;0;0
+2024-01-12 16:33:15 - [INFO] Board:
+2024-01-12 16:33:15 - [GOOD ERROR] Wrong move at 0, 0 from player 1
+2024-01-12 16:33:15 - [INFO] [1, 0, 0]
+2024-01-12 16:33:15 - [INFO] [0, 0, 0]
+2024-01-12 16:33:15 - [INFO] [0, 0, 0]
+2024-01-12 16:33:17 - [INFO] nicholas;0;0;1;2
+2024-01-12 16:33:17 - [INFO] s_game move at 1, 2 from player 2
+2024-01-12 16:33:17 - [INFO] Board:
+2024-01-12 16:33:17 - [INFO] [1, 0, 2]
+2024-01-12 16:33:17 - [INFO] [0, 0, 2]
+2024-01-12 16:33:18 - [INFO] [0, 0, 2]
+2024-01-12 16:33:18 - [INFO] s_game 0, 0 won by 2 due to column 2
+2024-01-12 16:33:20 - [INFO] s_game ended
+2024-01-12 16:33:28 - [INFO] s_game move at 2, 0 from player 1
+2024-01-12 16:33:28 - [INFO] nicholas;1;2;2;0
+2024-01-12 16:33:28 - [GOOD ERROR] Wrong move at 2, 0 from player 1
+2024-01-12 16:33:28 - [INFO] Board:
+2024-01-12 16:33:28 - [INFO] [0, 0, 0]
+2024-01-12 16:33:28 - [INFO] [0, 0, 0]
+2024-01-12 16:33:28 - [INFO] [1, 0, 0]
+2024-01-12 16:33:30 - [INFO] nicholas;2;0;2;1
+2024-01-12 16:33:30 - [INFO] s_game move at 2, 1 from player 2
+2024-01-12 16:33:30 - [INFO] Board:
+2024-01-12 16:33:30 - [INFO] [0, 2, 0]
+2024-01-12 16:33:30 - [INFO] [0, 0, 0]
+2024-01-12 16:33:30 - [INFO] [0, 2, 0]
+2024-01-12 16:33:32 - [INFO] nicholas;2;1;1;0
+2024-01-12 16:33:32 - [INFO] s_game move at 1, 0 from player 1
+2024-01-12 16:33:32 - [GOOD ERROR] Wrong move at 1, 0 from player 1
+2024-01-12 16:33:32 - [INFO] Board:
+2024-01-12 16:33:32 - [INFO] [0, 0, 0]
+2024-01-12 16:33:32 - [INFO] [1, 0, 0]
+2024-01-12 16:33:32 - [INFO] [0, 0, 0]
+2024-01-12 16:33:33 - [INFO] nicholas;2;0;1;1
+2024-01-12 16:33:33 - [GOOD ERROR] Wrong move at 1, 1 from player 2
+2024-01-12 16:33:36 - [INFO] nicholas;2;0;1;1
+2024-01-12 16:33:36 - [GOOD ERROR] Wrong move at 1, 1 from player 2
+2024-01-12 16:33:38 - [INFO] nicholas;2;0;1;1
+2024-01-12 16:33:38 - [GOOD ERROR] Wrong move at 1, 1 from player 2
+2024-01-12 16:33:42 - [INFO] nicholas;1;0;2;2
+2024-01-12 16:33:42 - [INFO] s_game move at 2, 2 from player 2
+2024-01-12 16:33:42 - [INFO] Board:
+2024-01-12 16:33:42 - [INFO] [0, 0, 0]
+2024-01-12 16:33:42 - [INFO] [0, 0, 0]
+2024-01-12 16:33:42 - [INFO] [0, 0, 2]
+2024-01-12 16:33:46 - [INFO] s_game move at 1, 0 from player 1
+2024-01-12 16:33:46 - [INFO] nicholas;2;2;1;0
+2024-01-12 16:33:46 - [INFO] Board:
+2024-01-12 16:33:46 - [GOOD ERROR] Wrong move at 1, 0 from player 1
+2024-01-12 16:33:46 - [INFO] [1, 0, 0]
+2024-01-12 16:33:46 - [INFO] [1, 0, 0]
+2024-01-12 16:33:46 - [INFO] [0, 0, 0]
+2024-01-12 16:33:50 - [INFO] nicholas;2;0;1;1
+2024-01-12 16:33:50 - [GOOD ERROR] Wrong move at 1, 1 from player 2
+2024-01-12 16:33:56 - [INFO] nicholas;2;0;1;1
+2024-01-12 16:33:56 - [GOOD ERROR] Wrong move at 1, 1 from player 2
+2024-01-12 16:33:57 - [INFO] nicholas;2;0;1;1
+2024-01-12 16:33:57 - [GOOD ERROR] Wrong move at 1, 1 from player 2
+2024-01-12 16:33:58 - [INFO] nicholas;2;0;1;0
+2024-01-12 16:33:58 - [GOOD ERROR] Wrong move at 1, 0 from player 2
+2024-01-12 16:33:59 - [INFO] nicholas;2;1;1;1
+2024-01-12 16:33:59 - [GOOD ERROR] Wrong move at 1, 1 from player 2
+2024-01-12 16:34:00 - [INFO] nicholas;2;1;0;1
+2024-01-12 16:34:00 - [GOOD ERROR] Wrong move at 0, 1 from player 2
+2024-01-12 16:34:00 - [INFO] nicholas;1;1;2;1
+2024-01-12 16:34:00 - [GOOD ERROR] Wrong move at 2, 1 from player 2
+2024-01-12 16:34:01 - [INFO] nicholas;1;0;1;2
+2024-01-12 16:34:01 - [INFO] s_game move at 1, 2 from player 2
+2024-01-12 16:34:01 - [INFO] Board:
+2024-01-12 16:34:01 - [INFO] [0, 0, 0]
+2024-01-12 16:34:01 - [INFO] [0, 0, 2]
+2024-01-12 16:34:02 - [INFO] [0, 0, 2]
+2024-01-12 16:34:05 - [INFO] s_game move at 1, 0 from player 1
+2024-01-12 16:34:06 - [INFO] Board:
+2024-01-12 16:34:06 - [GOOD ERROR] Wrong move at 1, 0 from player 1
+2024-01-12 16:34:06 - [INFO] [0, 0, 0]
+2024-01-12 16:34:06 - [INFO] [1, 0, 0]
+2024-01-12 16:34:06 - [INFO] [1, 0, 0]
+2024-01-12 16:34:07 - [INFO] nicholas;1;0;0;2
+2024-01-12 16:34:07 - [INFO] s_game move at 0, 2 from player 2
+2024-01-12 16:34:07 - [INFO] Board:
+2024-01-12 16:34:07 - [INFO] [0, 0, 2]
+2024-01-12 16:34:07 - [INFO] [0, 0, 2]
+2024-01-12 16:34:07 - [INFO] [0, 0, 2]
+2024-01-12 16:34:07 - [INFO] s_game 1, 0 won by 2 due to column 2
+2024-01-12 16:34:10 - [INFO] s_game move at 2, 1 from player 1
+2024-01-12 16:34:10 - [INFO] Board:
+2024-01-12 16:34:10 - [INFO] [0, 0, 0]
+2024-01-12 16:34:10 - [INFO] [0, 0, 0]
+2024-01-12 16:34:10 - [INFO] [1, 1, 0]
+2024-01-12 16:34:10 - [INFO] s_game ended
+2024-01-12 16:34:11 - [INFO] nicholas;0;2;2;1
+2024-01-12 16:34:11 - [GOOD ERROR] Wrong move at 2, 1 from player 2
+2024-01-12 16:34:13 - [INFO] nicholas;2;1;0;1
+2024-01-12 16:34:14 - [INFO] s_game move at 0, 1 from player 2
+2024-01-12 16:34:14 - [INFO] Board:
+2024-01-12 16:34:14 - [INFO] [0, 2, 0]
+2024-01-12 16:34:14 - [INFO] [1, 0, 0]
+2024-01-12 16:34:14 - [INFO] [0, 0, 0]
+2024-01-12 16:34:15 - [INFO] s_game move at 2, 0 from player 1
+2024-01-12 16:34:15 - [INFO] nicholas;0;1;2;0
+2024-01-12 16:34:15 - [INFO] Board:
+2024-01-12 16:34:15 - [INFO] [1, 0, 0]
+2024-01-12 16:34:16 - [GOOD ERROR] Wrong move at 2, 0 from player 1
+2024-01-12 16:34:16 - [INFO] [0, 0, 0]
+2024-01-12 16:34:16 - [INFO] [1, 0, 0]
+2024-01-12 16:34:17 - [INFO] nicholas;2;0;1;1
+2024-01-12 16:34:17 - [INFO] s_game move at 1, 1 from player 2
+2024-01-12 16:34:17 - [INFO] Board:
+2024-01-12 16:34:17 - [INFO] [0, 2, 0]
+2024-01-12 16:34:17 - [INFO] [0, 2, 0]
+2024-01-12 16:34:17 - [INFO] [0, 2, 0]
+2024-01-12 16:34:17 - [INFO] s_game 2, 0 won by 2 due to column 1
+2024-01-12 16:34:17 - [INFO] g_game won by 2 due to column 0
+2024-01-12 16:34:20 - [INFO] Game ended
+2024-01-12 16:34:59 - [ERROR] [WinError 10054] Se ha forzado la interrupción de una conexión existente por el host remoto
+2024-01-12 16:34:59 - [ERROR] Server disconnected
