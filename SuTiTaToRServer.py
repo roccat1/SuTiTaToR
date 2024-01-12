@@ -1,7 +1,24 @@
 import socket, threading
 
-HOST = '127.0.0.1'
-PORT = 55555
+# find ip of the user without socket
+HOST = socket.gethostbyname(socket.gethostname())
+
+PORT = 5050
+
+#if exists file names "ip.txt" read ip from it
+try:
+    with open("ip.txt", "r") as f:
+        HOST = f.read()
+except:
+    pass
+
+#if exists file names "port.txt" read port from it
+try:
+    with open("port.txt", "r") as f:
+        PORT = int(f.read())
+except:
+    pass
+
 ADDR = (HOST, PORT)
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -46,6 +63,9 @@ def receive():
             clients.append(client)
             users.append(clients.index(client)+1)
 
+            #send player number
+            client.send(f"PLAYER{clients.index(client)+1}".encode('ascii'))
+
             # Print and broadcast nickname
             print(f"Nickname is {nickname}")
             print(f"User is {users[clients.index(client)]}")
@@ -58,5 +78,8 @@ def receive():
         else:
             pass
 
-print("Server is listening...")
-receive()
+if __name__ == "__main__":
+    print("Server is listening...")
+    print(f"to connect, IP: {HOST} PORT: {PORT}")
+    receive()
+

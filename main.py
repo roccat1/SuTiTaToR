@@ -1,15 +1,13 @@
-import scripts.UI as UI
+import scripts.UI.boardUI as boardUI
 import scripts.log as log
 import scripts.client.connect as connect
 import scripts.game as game
+import scripts.UI.mainMenuUI as mainMenuUI
 
 __author__ = "github.com/roccat1"
 
 if __name__ == "__main__":
-    log.log("[START] main started")
+    log.log("[START] main started, log at: " + log.logPath)
 
-    # Connect to server
-    connect.connect("127.0.0.1", 55555, "nicholas")
-    game.online_mode = True
-    game.player = 1
-    UI.UI()
+    # Start UI
+    mainMenuUI.mainWindowUI()

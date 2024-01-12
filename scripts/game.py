@@ -5,11 +5,12 @@ games = [[ttt.TicTacToeNxN(3) for col in range(3)] for row in range(3)]
 g_game = ttt.TicTacToeNxN(3)
 turn = 1
 player = None
-online_mode = True
+#online_mode = True
 
 log.log("[START] Game created")
 
 def update_prev_mov(row, col):
+    """Updates the previous move in the small game for the big game"""
     if games[row][col].active:
             g_game.previous_move = (row, col)
     else:

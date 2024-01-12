@@ -1,6 +1,6 @@
 import scripts.client.client as client
 
-import socket
+import time
 
 def write():
     while True:
@@ -9,3 +9,4 @@ def write():
             client.msg = None
         else:
             pass
+        time.sleep(0.1)

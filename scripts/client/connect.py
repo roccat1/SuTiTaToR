@@ -2,7 +2,7 @@ import socket, threading
 
 import scripts.client.client as client
 import scripts.log as log
-import scripts.UI as UI
+import scripts.UI.boardUI as boardUI
 import scripts.client.write as write
 
 def connect(host, port, nick):
@@ -25,10 +25,14 @@ def receive():
             if message == 'NICK':
                 # Send nickname to server
                 client.client.send(client.nickname.encode('ascii'))
+            elif message == "PLAYER1" or message == "PLAYER2":
+                import scripts.client.recievedPlayerNumber as recievedPlayerNumber
+                recievedPlayerNumber.player = int(message[-1])
+                log.log("[INFO] You are player " + str(recievedPlayerNumber.player))
             else:
                 log.log("[INFO] " + message)
                 try:
-                    UI.execute_board_change(int(message.split(";")[1]), int(message.split(";")[2]), int(message.split(";")[3]), int(message.split(";")[4]))
+                    boardUI.execute_board_change(int(message.split(";")[1]), int(message.split(";")[2]), int(message.split(";")[3]), int(message.split(";")[4]))
                 except:
                     log.log("[ERROR] operation failed")
         except Exception as e:
