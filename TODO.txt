@@ -1,1 +1,2 @@
 - warning when wrong grid
+- check if on draw you can choose g_game
